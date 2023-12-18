@@ -1,0 +1,25 @@
+{
+  "name": "qx82",
+  "version": "1.0.0",
+  "description": "Tiny Javascript engine for retro games",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.jsx --bundle --outfile=out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btco/qx82.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btco/qx82/issues"
+  },
+  "homepage": "https://github.com/btco/qx82#readme",
+  "dependencies": {
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.9"
+  }
+}
