@@ -153,7 +153,7 @@ export function startAsync(asyncMethodName, resolve, reject) {
     resolve,
     reject,
   }
-  this.render();
+  render();
 }
 
 export function hasPendingAsync(asyncMethodName) {
@@ -217,7 +217,7 @@ export function markDirty() {
 export function cls() {
   ctx.fillStyle = getColorHex(drawState.bgColor);
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  this.setCursorLocation(0, 0);
+  setCursorLocation(0, 0);
   markDirty();
 }
 
